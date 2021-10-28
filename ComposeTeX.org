@@ -1,0 +1,25 @@
+* ComposeTeX
+
+** Introduction:
+
+When on Linux, there is a decent chance that you will want to type mathematical symbols from LaTeX within plaintext situtaions. Are you in a lecture for Discrete Math? What about writing a simple README file for your project? No matter the situation, Linux is a slight disadvanage.
+
+In windows, you have access to tools like AutoHotKey for live keyboard replacements or LaTeX symbols via a script available here: [[https://gist.github.com/kbauer/e8fee6514d124d5961f51fd7ba571bfd]]
+
+On Linux, you can't run AutoHotKey natively, which makes this solution a bit more difficult. Luckily, on many desktop managers, you have access to XCompose. This is a =.XCompose= file that contains a list of all the symbols you can type and binds them to various keybinds.
+
+** Installation:
+
+Simply download the file and place it in your =$HOME= directory named =.XCompose=.
+
+** Symbols
+
+I will be using this website as a reference when making the LaTeX symbols table: [[https://latex.wikia.org/wiki/List_of_LaTeX_symbols#Greek_letters]]
+
+*** Greek Letters
+
+| Symbol | Unicode   | LaTeX  | Keybind |
+|--------+-----------+--------+---------|
+| Alpha  | \u0391    | \alpha | a       |
+
+*** LaTeX Symbols
