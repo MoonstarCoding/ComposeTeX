@@ -1,3 +1,12 @@
+#+TITLE: ComposeTeX
+#+DESCRIPTION: On Linux, you can't run AutoHotKey natively, which makes this solution a bit more difficult. Luckily, on many desktop managers, you have access to XCompose. This is a .XCompose file that contains a list of all the symbols you can type and binds them to various keybinds.
+#+AUTHOR: Mark Hutchison, hutchm6
+#+CREATOR: Emacs
+#+EMAIL: hutchm6@mcmaster.ca
+#+DATE: \today
+#+LANGUAGE: en
+#+OPTIONS: _:{} ^:{} toc:nil
+
 * ComposeTeX
 
 ** Introduction:
@@ -18,8 +27,48 @@ I will be using this website as a reference when making the LaTeX symbols table:
 
 *** Greek Letters
 
-| Symbol | Unicode   | LaTeX  | Keybind |
-|--------+-----------+--------+---------|
-| Alpha  | \u0391    | \alpha | a       |
+**** Lower Case
+
+| Symbol    | Unicode  | LaTeX command  | Keybind             |
+|-----------+----------+----------------+---------------------|
+| $\alpha$  | u03B1    | alpha          | =<Compose> + g + a= |
+| $\beta$   | u03B2    | beta           | =<Compose> + g + b= |
+| $\gamma$  | u03B3    | gamma          | =<Compose> + g + g= |
+| $\delta$  | u03B4    | delta          | =<Compose> + g + d= |
+| $\epsilon$| u03B5    | epsilon        | =<Compose> + g + 3= |
+| $\zeta$   | u03B6    | zeta           | =<Compose> + g + z= |
+| $\eta$    | u03B7    | eta            | =<Compose> + g + e= |
+| $\theta$  | u03B8    | theta          | =<Compose> + g + h= |
+| $\iota$   | u03B9    | iota           | =<Compose> + g + i= |
+| $\kappa$  | u03BA    | kappa          | =<Compose> + g + k= |
+| $\lambda$ | u03BB    | lambda         | =<Compose> + g + l= |
+| $\mu$     | u03BC    | mu             | =<Compose> + g + m= |
+| $\nu$     | u03BD    | nu             | =<Compose> + g + n= |
+| $\xi$     | u03BE    | xi             | =<Compose> + g + x= |
+| $\pi$     | u03C0    | pi             | =<Compose> + g + p= |
+| $\rho$    | u03C1    | rho            | =<Compose> + g + r= |
+| $\sigma$  | u03C3    | sigma          | =<Compose> + g + s= |
+| $\tau$    | u03C4    | tau            | =<Compose> + g + t= |
+| $\upsilon$| u03C5    | upsilon        | =<Compose> + g + u= |
+| $\phi$    | u03C6    | phi            | =<Compose> + g + f= |
+| $\chi$    | u03C7    | chi            | =<Compose> + g + c= |
+| $\psi$    | u03C8    | psi            | =<Compose> + g + j= |
+| $\omega$  | u03C9    | omega          | =<Compose> + g + w= |
+
+**** Upper Case
+
+| Symbol     | Unicode | LaTeX command | Keybind                                        |
+|------------+---------+---------------+------------------------------------------------|
+| $\Gamma$   | u0393   | Gamma         | =<Compose> + g + G=                            |
+| $\Delta$   | u0394   | Delta         | =<Compose> + g + D=                            |
+| $\Lambda$  | u039B   | Lambda        | =<Compose> + g + L=                            |
+| $\Phi$     | u03A6   | Phi           | =<Compose> + g + F=                            |
+| $\Pi$      | u03A0   | Pi            | =<Compose> + g + P= $\vee$ =<Compose> + g + *= |
+| $\Psi$     | u03A8   | Psi           | =<Compose> + g + J=                            |
+| $\Sigma$   | u03A3   | Sigma         | =<Compose> + g + S= $\vee$ =<Compose> + g + += |
+| $\Theta$   | u0398   | Theta         | =<Compose> + g + H=                            |
+| $\Upsilon$ | u03A5   | Upsilon       | =<Compose> + g + U=                            |
+| $\Xi$      | u039E   | Xi            | =<Compose> + g + X=                            |
+| $\Omega$   | u03A9   | Omega         | =<Compose> + g + O=                            |
 
 *** LaTeX Symbols
