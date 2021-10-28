@@ -53,7 +53,7 @@ I will be using this website as a reference when making the LaTeX symbols table:
 | \phi    | u03C6    | phi            | =<Compose> + g + f= |
 | \chi    | u03C7    | chi            | =<Compose> + g + c= |
 | \psi    | u03C8    | psi            | =<Compose> + g + j= |
-| \omega  | u03C9    | omega          | =<Compose> + g + w= |
+| \omega  | u03C9    | omega          | =<Compose> + g + o= |
 
 **** Upper Case
 
