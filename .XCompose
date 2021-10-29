@@ -1,39 +1,66 @@
 include "%L"
 
-# GREEK LETTERS
-# LOWERCASE
-<Multi_key> <g> <a>		: "α"	U03B1		# GREEK SMALL LETTER ALPHA
-<Multi_key> <g> <b>		: "β"	U03B2		# GREEK SMALL LETTER BETA
-<Multi_key> <g> <g>		: "γ"	U03B3		# GREEK SMALL LETTER GAMMA
-<Multi_key> <g> <d>		: "δ"	U03B4		# GREEK SMALL LETTER DELTA
-<Multi_key> <g> <3>		: "ε"	U03B5		# GREEK SMALL LETTER EPSILON
-<Multi_key> <g> <z>		: "ζ"	U03B6		# GREEK SMALL LETTER ZETA
-<Multi_key> <g> <e>		: "η"	U03B7		# GREEK SMALL LETTER ETA
-<Multi_key> <g> <h>		: "θ"	U03B8		# GREEK SMALL LETTER THETA
-<Multi_key> <g> <i>		: "ι"	U03B9		# GREEK SMALL LETTER IOTA
-<Multi_key> <g> <k>		: "κ"	U03BA		# GREEK SMALL LETTER KAPPA
-<Multi_key> <g> <l>		: "λ"	U03BB		# GREEK SMALL LETTER LAMBDA
-<Multi_key> <g> <m>		: "μ"	U03BC		# GREEK SMALL LETTER MU
-<Multi_key> <g> <n>		: "ν"	U03BD		# GREEK SMALL LETTER NU
-<Multi_key> <g> <x>		: "ξ"	U03BE		# GREEK SMALL LETTER XI
-<Multi_key> <g> <p>		: "π"	U03C0		# GREEK SMALL LETTER PI
-<Multi_key> <g> <r>		: "ρ"	U03C1		# GREEK SMALL LETTER RHO
-<Multi_key> <g> <s>		: "σ"	U03C3		# GREEK SMALL LETTER SIGMA
-<Multi_key> <g> <t>		: "τ"	U03C4		# GREEK SMALL LETTER TAU
-<Multi_key> <g> <u>		: "υ"	U03C5		# GREEK SMALL LETTER UPSILON
-<Multi_key> <g> <f>		: "φ"	U03C6		# GREEK SMALL LETTER PHI
-<Multi_key> <g> <c>		: "χ"	U03C7		# GREEK SMALL LETTER CHI
-<Multi_key> <g> <j>		: "ψ"	U03C8		# GREEK SMALL LETTER PSI
-<Multi_key> <g> <o>		: "ω"	U03C9		# GREEK SMALL LETTER OMEGA
-# UPPERCASE
-<Multi_key> <g> <G>		: "Γ"	U0393		# GREEK CAPITAL LETTER GAMMA
-<Multi_key> <g> <D>		: "Δ"	U0394		# GREEK CAPITAL LETTER DELTA
-<Multi_key> <g> <L>		: "Λ"	U039B		# GREEK CAPITAL LETTER LAMBDA
-<Multi_key> <g> <F>		: "Φ"	U03A6		# GREEK CAPITAL LETTER PHI
-<Multi_key> <g> <P>		: "Π"	U03A0		# GREEK CAPITAL LETTER PI
-<Multi_key> <g> <J>		: "Ψ"	U03A8		# GREEK CAPITAL LETTER PSI
-<Multi_key> <g> <S>		: "Σ"	U03A3		# GREEK CAPITAL LETTER SIGMA
-<Multi_key> <g> <H>		: "Θ"	U0398		# GREEK CAPITAL LETTER THETA
-<Multi_key> <g> <U>		: "Υ"	U03A5		# GREEK CAPITAL LETTER UPSILON
-<Multi_key> <g> <X>		: "Ξ"	U039E		# GREEK CAPITAL LETTER XI
-<Multi_key> <g> <O>		: "Ω"	U03A9		# GREEK CAPITAL LETTER OMEGA
+# GREEK LETTERS - LOWERCASE
+<Multi_key> <a> <l> <p> <h> <a> <space>                     : "α"	U03B1   # GREEK SMALL LETTER ALPHA
+<Multi_key> <b> <e> <t> <a> <space>                         : "β"	U03B2   # GREEK SMALL LETTER BETA
+<Multi_key> <g> <a> <m> <m> <a> <space>                     : "γ"	U03B3   # GREEK SMALL LETTER GAMMA
+<Multi_key> <d> <e> <l> <t> <a> <space>                     : "δ"	U03B4   # GREEK SMALL LETTER DELTA
+<Multi_key> <e> <p> <s> <i> <l> <o> <n> <space>             : "ϵ"	U03F5   # GREEK LUNATE EPSILON SYMBOL
+<Multi_key> <z> <e> <t> <a> <space>                         : "ζ"	U03B6   # GREEK SMALL LETTER ZETA
+<Multi_key> <e> <t> <a> <space>                             : "η"	U03B7   # GREEK SMALL LETTER ETA
+<Multi_key> <t> <h> <e> <t> <a> <space>                     : "θ"	U03B8   # GREEK SMALL LETTER THETA
+<Multi_key> <i> <o> <t> <a> <space>                         : "ι"	U03B9   # GREEK SMALL LETTER IOTA
+<Multi_key> <k> <a> <p> <p> <a> <space>                     : "κ"	U03BA   # GREEK SMALL LETTER KAPPA
+<Multi_key> <l> <a> <m> <b> <d> <a> <space>                 : "λ"	U03BB   # GREEK SMALL LETTER LAMBDA
+<Multi_key> <m> <u> <space>                                 : "μ"	U03BC   # GREEK SMALL LETTER MU
+<Multi_key> <n> <u> <space>                                 : "ν"	U03BD   # GREEK SMALL LETTER NU
+<Multi_key> <x> <i> <space>                                 : "ξ"	U03BE   # GREEK SMALL LETTER XI
+<Multi_key> <p> <i> <space>                                 : "π"	U03C0   # GREEK SMALL LETTER PI
+<Multi_key> <r> <h> <o> <space>                             : "ρ"	U03C1   # GREEK SMALL LETTER RHO
+<Multi_key> <s> <i> <g> <m> <a> <space>                     : "σ"	U03C3   # GREEK SMALL LETTER SIGMA
+<Multi_key> <t> <a> <u> <space>                             : "τ"	U03C4   # GREEK SMALL LETTER TAU
+<Multi_key> <u> <p> <s> <i> <l> <o> <n> <space>             : "υ"	U03C5   # GREEK SMALL LETTER UPSILON
+<Multi_key> <p> <h> <i> <space>                             : "ϕ"	U03D5   # GREEK PHI SYMBOL
+<Multi_key> <c> <h> <i> <space>                             : "χ"	U03C7   # GREEK SMALL LETTER CHI
+<Multi_key> <p> <s> <i> <space>                             : "ψ"	U03C8   # GREEK SMALL LETTER PSI
+<Multi_key> <o> <m> <e> <g> <a> <space>                     : "ω"	U03C9   # GREEK SMALL LETTER OMEGA
+# GREEK LETTERS - UPPERCASE
+<Multi_key> <G> <a> <m> <m> <a> <space>                     : "Γ"	U0393   # GREEK CAPITAL LETTER GAMMA
+<Multi_key> <D> <e> <l> <t> <a> <space>		                : "Δ"	U0394	# GREEK CAPITAL LETTER DELTA
+<Multi_key> <L>	<a> <m> <b> <d> <a> <space>	                : "Λ"	U039B	# GREEK CAPITAL LETTER LAMBDA
+<Multi_key> <P>	<h> <i>                                     : "Φ"	U03A6	# GREEK CAPITAL LETTER PHI
+<Multi_key> <P>	<i>                                         : "Π"	U03A0	# GREEK CAPITAL LETTER PI
+<Multi_key> <P>	<s> <i>                                     : "Ψ"	U03A8	# GREEK CAPITAL LETTER PSI
+<Multi_key> <S>	<i> <g> <m> <a> <space>                     : "Σ"	U03A3	# GREEK CAPITAL LETTER SIGMA
+<Multi_key> <T>	<h> <e> <t> <a> <space>                     : "Θ"	U0398	# GREEK CAPITAL LETTER THETA
+<Multi_key> <U>	<p> <s> <i> <l> <o> <n> <space>             : "Υ"	U03A5	# GREEK CAPITAL LETTER UPSILON
+<Multi_key> <X>	<i>                                         : "Ξ"	U039E	# GREEK CAPITAL LETTER XI
+<Multi_key> <O>	<m> <e> <g> <a> <space>                     : "Ω"	U03A9	# GREEK CAPITAL LETTER OMEGA
+# GREEK LETTERS - MISC
+<Multi_key> <d> <i> <g> <a> <m> <m> <a> <space>             : "Ϝ"   U03DC   # GREEK LETTER DIGAMMA
+<Multi_key> <v> <a> <r> <e> <p> <s> <i> <l> <o> <n> <space> : "ε"   U03B5   # GREEK SMALL LETTER EPSILON
+<Multi_key> <v> <a> <r> <k> <a> <p> <p> <a> <space>         : "ϰ"   U03F0   # GREEK KAPPA SYMBOL
+<Multi_key> <v> <a> <r> <p> <h> <i> <space>                 : "φ"	U03C6   # GREEK SMALL LETTER PHI
+<Multi_key> <v> <a> <r> <p> <i> <space>                     : "ϖ"   U03D6   # GREEK PI SYMBOL
+<Multi_key> <v> <a> <r> <r> <h> <o> <space>                 : "ϱ"   U03F1   # GREEK RHO SYMBOL
+<Multi_key> <v> <a> <r> <s> <i> <g> <m> <a> <space>         : "ϛ"   U03DB   # GREEK SMALL LETTER STIGMA
+<Multi_key> <v> <a> <r> <t> <h> <e> <t> <a> <space>         : "ϑ"   U03D1   # GREEK THETA SYMBOL
+# OTHER CHARACTERS
+<Multi_key> <a> <l> <e> <p> <h> <space>                     : "ℵ"   U2135   # ALEPH SYMBOL
+<Multi_key> <b> <e> <t> <h> <space>                         : "ℶ"   U2136   # BET SYMBOL
+<Multi_key> <g> <i> <m> <e> <l> <space>                     : "ℷ"   U2137   # GIMEL SYMBOL
+<Multi_key> <d> <a> <l> <e> <t> <h> <space>                 : "ℸ"   U2138   # DALET SYMBOL
+<Multi_key> <c> <o> <m> <p> <l> <e> <m> <e> <n> <t> <space> : "∁"   U2201   # COMPLEMENT
+<Multi_key> <e> <l> <l> <space>                             : "ℓ"   U2113   # SCRIPT SMALL L
+<Multi_key> <e> <t> <h> <space>                             : "ð"   U00F0   # LATIN SMALL LETTER ETH
+<Multi_key> <h> <b> <a> <r> <space>                         : ""
+<Multi_key> <h> <s> <l> <a> <s> <h> <space>                 : ""
+<Multi_key> <m> <h> <o> <space>                             : ""
+<Multi_key> <p> <a> <r> <t> <i> <a> <l> <space>             : ""
+<Multi_key> <w> <p> <space>                                 : ""
+<Multi_key> <c> <i> <r> <c> <l> <e> <d> <S> <space>         : ""
+<Multi_key> <B> <b> <b> <k> <space>                         : ""
+<Multi_key> <F> <i> <n> <v> <space>                         : ""
+<Multi_key> <G> <a> <m> <e> <space>                         : ""
+<Multi_key> <I> <m> <space>                                 : ""
+<Multi_key> <R> <e> <space>                                 : ""
