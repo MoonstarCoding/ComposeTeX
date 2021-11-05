@@ -78,7 +78,18 @@ include "%L"
 <Multi_key> <d> <i> <a> <m> <o> <n> <d> <s> <u> <i> <t> <space>                         : "♢"   U2662   # WHITE DIAMOND SUIT
 <Multi_key> <e> <m> <p> <t> <y> <s> <e> <t> <space>                                     : "∅"   U2205   # EMPTY SET
 <Multi_key> <e> <x> <i> <s> <t> <s> <space>                                             : "∃"   U2203   # THERE EXISTS
-<Multi_key> <f> <l> <a> <t> <space>                                                     : "𝄬"   U1D12C   # MUSICAL SYMBOL FLAT UP
+<Multi_key> <f> <l> <a> <t> <space>                                                     : "♭"   U266D   # MUSICAL FLAT SIGN
 <Multi_key> <f> <o> <r> <a> <l> <l> <space>                                             : "∀"   U2200   # FOR ALL
 <Multi_key> <h> <e> <a> <r> <t> <s> <u> <i> <t> <space>                                 : "♡"   U2661   # WHITE HEART SUIT
 <Multi_key> <i> <n> <f> <t> <y> <space>                                                 : "∞"   U221E   # INFINITY
+<Multi_key> <l> <o> <z> <e> <n> <g> <e> <space>                                         : "◊"   U25CA   # LOZENGE
+<Multi_key> <m> <e> <a> <s> <u> <r> <e> <d> <a> <n> <g> <l> <e> <space>                 : "∡"   U2211   # MEASURED ANGLE
+<Multi_key> <n> <a> <b> <l> <a> <space>                                                 : "∇"   U2207   # NABLA
+<Multi_key> <n> <a> <t> <u> <r> <a> <l> <space>                                         : "♮"   U266E   # MUSICAL NATURAL SIGN
+<Multi_key> <n> <e> <g> <space>                                                         : "¬"   U00AC   # NOT SIGN
+<Multi_key> <l> <n> <o> <t> <space>                                                     : "¬"   U00AC   # NOT SIGN
+<Multi_key> <n> <e> <x> <i> <s> <t> <s> <space>                                         : "∄"   U2204   # THERE DOES NOT EXIST
+<Multi_key> <S> <space>                                                                 : "§"   U00A7   # SECTION SIGN
+
+
+
