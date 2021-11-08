@@ -98,3 +98,21 @@ include "%L"
 <Multi_key> <t> <r> <i> <a> <n> <g> <l> <e> <space>                                     : "△"   U25B3   # WHITE UP-POINTING TRIANGLE
 <Multi_key> <t> <r> <i> <a> <n> <g> <l> <e> <d> <o> <w> <n> <space>                     : "▽"   U25BD   # WHITE DOWN-POINTING TRIANGLE
 <Multi_key> <v> <a> <r> <n> <o> <t> <h> <i> <n> <g> <space>                             : "∅"   U2205   # EMPTY SET
+
+# PREFIX OPERATORS
+<Multi_key> <i> <n> <t> <space>                         : "∫"   U222B   # INTEGRAL
+<Multi_key> <o> <i> <n> <t> <space>                     : "∮"   U222E   # CONTOUR INTEGRAL
+<Multi_key> <b> <i> <g> <c> <a> <p> <space>             : "⋂"   U22C2   # N-ARY INTERSECTION
+<Multi_key> <b> <i> <g> <c> <u> <p> <space>             : "⋃"   U22C3   # N-ARY UNION
+<Multi_key> <b> <i> <g> <o> <d> <o> <t> <space>         : "⨀"   U2A00   # N-ARY CIRCLED DOT OPERATOR
+<Multi_key> <b> <i> <g> <o> <p> <l> <u> <s> <space>     : "⨁"   U2A01   # N-ARY CIRCLED PLUS OPERATOR
+<Multi_key> <b> <i> <g> <o> <t> <i> <m> <e> <s> <space> : "⨂"   U2A02   # N-ARY CIRCLED TIMES OPERATOR
+<Multi_key> <b> <i> <g> <s> <q> <c> <u> <p> <space>     : "⨆"   U2A06   # N-ARY SQUARE UNION OPERATOR
+<Multi_key> <b> <i> <g> <u> <p> <l> <u> <s> <space>     : "⨄"   U2A04   # N-ARY UNION OPERATOR WITH PLUS
+<Multi_key> <b> <i> <g> <v> <e> <e> <space>             : "⋁"   U22C1   # N-ARY LOGICAL OR
+<Multi_key> <b> <i> <g> <w> <e> <d> <g> <e> <space>     : "⋀"   U22C0   # N-ARY LOGICAL AND
+<Multi_key> <c> <o> <p> <r> <o> <d> <space>             : "⨿"   U2A3F   # AMALGAMATION OR COPRODUCT
+<Multi_key> <p> <r> <o> <d> <space>                     : "∏"   U220F   # N-ARY PRODUCT
+<Multi_key> <s> <u> <m> <space>                         : "∑"   U2211   # N-ARY SUMMATION
+
+# BINARY OPERATORS
